@@ -283,12 +283,12 @@
  * @returns {module:fabric-network.TransactionEvent} A transaction event.
  */
 
-module.exports.Gateway = require('fabric-network/lib/gateway').Gateway;
-module.exports.Wallet = require('fabric-network/lib/impl/wallet/wallet').Wallet;
-module.exports.Wallets = require('fabric-network/lib/impl/wallet/wallets').Wallets;
-module.exports.IdentityProviderRegistry = require('fabric-network/lib/impl/wallet/identityproviderregistry').IdentityProviderRegistry;
-module.exports.HsmX509Provider = require('fabric-network/lib/impl/wallet/hsmx509identity').HsmX509Provider;
-module.exports.DefaultCheckpointers = require('fabric-network/lib/defaultcheckpointers').DefaultCheckpointers;
-module.exports.DefaultEventHandlerStrategies = require('fabric-network/lib/impl/event/defaulteventhandlerstrategies');
-module.exports.DefaultQueryHandlerStrategies = require('fabric-network/lib/impl/query/defaultqueryhandlerstrategies');
-module.exports.TimeoutError = require('fabric-network/lib/errors/timeouterror').TimeoutError;
+module.exports.Gateway = require('./lib/gateway').Gateway;
+module.exports.Wallet = require('./lib/impl/wallet/wallet').Wallet;
+module.exports.Wallets = require('./lib/impl/wallet/wallets').Wallets;
+module.exports.IdentityProviderRegistry = require('./lib/impl/wallet/identityproviderregistry').IdentityProviderRegistry;
+module.exports.HsmX509Provider = require('./lib/impl/wallet/hsmx509identity').HsmX509Provider;
+module.exports.DefaultCheckpointers = require('./lib/defaultcheckpointers').DefaultCheckpointers;
+module.exports.DefaultEventHandlerStrategies = require('./lib/impl/event/defaulteventhandlerstrategies');
+module.exports.DefaultQueryHandlerStrategies = require('./lib/impl/query/defaultqueryhandlerstrategies');
+module.exports.TimeoutError = require('./lib/errors/timeouterror').TimeoutError;
