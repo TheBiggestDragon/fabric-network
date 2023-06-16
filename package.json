@@ -25,6 +25,7 @@
   "types": "./types/index.d.ts",
   "dependencies": {
     "fabric-common": "^2.2.18",
+    "fabric-protos": "2.2.18",
     "nano": "^9.0.5"
   },
   "nyc": {
